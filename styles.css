@@ -10,6 +10,10 @@
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: #F4D04E;
     font-family: "figtree", sans-serif;
 }
@@ -40,6 +44,7 @@ main{
     border-radius: 20px;
     box-shadow: 8px 8px 0px #111111;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .banner{
